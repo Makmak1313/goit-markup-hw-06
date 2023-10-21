@@ -42,7 +42,7 @@ align-items: center;
 color:  #2E2F42;
 }
 .header-link-menu {
-display: flex;
+display:none;
 gap: 40px;
 }
 .current::after {
@@ -101,6 +101,7 @@ color: #404BBF;
 .address-contacts {
 margin-left: auto;
 font-style: normal;
+display: none;
 }
 
 .main-sector { 
@@ -761,6 +762,15 @@ text-decoration-line: underline;
 
     .mob-header-container {
         display: none;
+    }
+    .header-link-menu {
+        display: flex;
+    }
+
+    .address-contacts {
+        display: flex;
+        flex-direction: column;
+            
     }
 
     .address-contacts-menu {
