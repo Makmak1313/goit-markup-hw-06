@@ -27,9 +27,6 @@ display: block;
 display: flex; 
 align-items: center;
 }
-.header-container {
-display: none;
-}
 .header-logo { 
     display: flex;
     align-items: center;
