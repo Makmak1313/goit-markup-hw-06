@@ -71,6 +71,7 @@ color: #404BBF;
 }
 
 .header-link {
+        color: #2E2F42;
         display: block;
         font-size: 16px;
         font-weight: 500;
@@ -253,6 +254,9 @@ margin-bottom: 72px;
 color: #FFF;
 background-color: #404BBF;
 }
+.advantages {
+    padding: 96px 0;
+}
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -299,6 +303,7 @@ gap: 72px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 8px;
 }
 .title-text {
 color:  #434455;
@@ -308,7 +313,7 @@ line-height: 1.5em;
 letter-spacing: 0.32px;
 }
 .second-sector {
-padding: 120px 0;
+padding: 96px 0;
 background-color: #F4F4FD;
 }
 .title-img {
@@ -318,6 +323,7 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 color: #2E2F42;
 text-align: center;
+margin-bottom: 8px;
 }
 
 .soc-link-list {
@@ -339,6 +345,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .last-sector {
+padding: 96px 0;
 background-color: #FFFFFF;
 }
 .sector-name {
@@ -397,7 +404,6 @@ justify-content: center;
 background-color: #404bbf;
 }
 .categorias {
-display: flex;
 width: auto;
 padding: 32px 16px;
 flex-direction: column;
@@ -422,6 +428,7 @@ letter-spacing: 0.32px;
 }
 .portfolio-item {
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-bottom: 48px;
 }
 .portfolio-item:hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -811,7 +818,7 @@ text-decoration-line: underline;
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 584px;
     }
 
     .mob-header-container {
@@ -848,6 +855,10 @@ text-decoration-line: underline;
         display: none;
     }
 
+    .advantages {
+            padding: 96px 0;
+        }
+
     .advantages-container-list {
         display: flex;
         flex-direction: row;
@@ -861,6 +872,7 @@ text-decoration-line: underline;
 
     .title {
         text-align: start;
+        margin-bottom: 8px;
     }
 
     .last-sector-list {
@@ -912,12 +924,13 @@ text-decoration-line: underline;
         }
 
         .main-sector {
-            padding: 112px 136px;
+            padding: 112px 0;
         }
     }
 
     .footer-logo-end {
         text-align: left;
+        margin-bottom: 72px;
     }
 
     .soc-text {
@@ -1010,8 +1023,8 @@ text-decoration-line: underline;
     .main-sector {
         background-image: linear-gradient(#2E2F42B2, #2E2F42B2),
             url(../images/people-office-desk.jpg);
-        max-width: 1158px;
-        padding: 188px 472px;
+        max-width: 1440px;
+        padding: 188px 0;
         
         }
     
@@ -1031,6 +1044,16 @@ text-decoration-line: underline;
         letter-spacing: 1.12px;
         max-width: 496px;
         margin-bottom: 48px;
+    }
+
+    .footer-container {
+            gap: 0;
+        }
+    .footer-logo-end {
+        margin-right: 120px;
+    }
+    .container-soc-link {
+        margin-right: 80px;
     }
 
 }
