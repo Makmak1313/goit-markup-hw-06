@@ -22,6 +22,11 @@ padding-left: 0;
 img {
 display: block;    
 }
+.header {
+    border-bottom: 1px solid  #E7E9FC;
+        background: #FFF;
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
 .head-container {
      display: flex;
      justify-content: space-between;
@@ -49,6 +54,9 @@ color:  #2E2F42;
 .header-link-menu {
 display:none;
 gap: 40px;
+}
+.current {
+    color: #404BBF;
 }
 .current::after {
 content: "";
@@ -95,10 +103,10 @@ color: #404BBF;
  }
 .address-link {
     display: block;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
     color: #434455;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -176,7 +184,7 @@ height: 100%;
  }
 
  .mob-address-link {
-     display: inline-flex;
+    
      flex-direction: column;
      align-items: flex-start;
      font-size: 20px;
@@ -291,6 +299,9 @@ gap: 72px;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid  #8E8F99;
+       
 }
 .advantages-list {
 gap: 72px;
@@ -359,7 +370,7 @@ color: #2E2F42;
 margin-bottom: 72px;
 }
 .second-sector-list {
-display: inline-flex;
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 24px;
@@ -818,7 +829,7 @@ text-decoration-line: underline;
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 584px;
+        max-width: 768px;
     }
 
     .mob-header-container {
@@ -945,9 +956,7 @@ text-decoration-line: underline;
         gap: 24px;
     }
 
-    .footer-subscribe {
-        margin-right: 20px;
-    }
+    
 
     .footer-back {
         padding: 96px 0;
@@ -1047,13 +1056,14 @@ text-decoration-line: underline;
     }
 
     .footer-container {
-            gap: 0;
-        }
+        flex-wrap: nowrap;
+    }
     .footer-logo-end {
         margin-right: 120px;
     }
-    .container-soc-link {
-        margin-right: 80px;
+   
+    .advantages .second-sector .last-sector {
+        padding: 120px 0;
     }
 
 }
