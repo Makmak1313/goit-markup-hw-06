@@ -226,7 +226,7 @@ flex-direction: column;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)), url(../images/dark-bgpeople-office-mob.jpg);
+     rgba(46, 47, 66, 0.7)), url(../images/dark-bgpeople-office-mob@2x.jpg);
     margin: 0 auto;
     padding: 72px 16px;
     
